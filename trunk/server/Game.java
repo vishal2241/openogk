@@ -13,4 +13,5 @@ import java.rmi.Remote;
  */
 public interface Game extends Remote {
 
+
 }

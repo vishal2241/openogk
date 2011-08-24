@@ -23,12 +23,14 @@ public class Server {
     private boolean run = false;
 
     private Map<String, Game> gamesMap;
+    private Map<String, Table> tablesMap;
 
     private Registry rmiRegistry;
 
     public Server(boolean run) throws RemoteException {
 
         this.gamesMap = new HashMap<String, Game>();
+        this.tablesMap = new HashMap<String, Table>();
 
         this.run = run;
 
@@ -58,6 +60,7 @@ public class Server {
     }
 
     public void runTable(String id) {
+
 
     }
 }
