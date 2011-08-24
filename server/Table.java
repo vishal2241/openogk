@@ -14,8 +14,4 @@ public class Table implements Runnable {
     public void run() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
-
-    public void run(Game game) {
-        
-    }
 }
